@@ -9,7 +9,7 @@ spec:
   ingressClassName: nginx
   rules:
     - host: dashboard.amyapproved.me
-    - http:
+      http:
         paths:
           - path: /
             pathType: Prefix
